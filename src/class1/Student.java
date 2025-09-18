@@ -4,4 +4,6 @@ public class Student {
     String name;
     int age;
     int grade;
+
+    //=> 멤버변수 (필드)
 }

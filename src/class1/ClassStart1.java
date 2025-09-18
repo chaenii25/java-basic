@@ -11,7 +11,8 @@ public class ClassStart1 {
         int student2Age = 16;
         int student2Grade = 80;
 
-        System.out.println("이름:" + student1Name + " 나이:" + student1Age + " 성적:" + student1Grade);
-        System.out.println("이름:" + student2Name + " 나이:" + student2Age + " 성적:" + student2Grade);
+        //변수이름이 달라서 for문 사용이 불가함
+        System.out.println("이름: " + student1Name + " 나이: " + student1Age + " 성적: " + student1Grade);
+        System.out.println("이름: " + student2Name + " 나이: " + student2Age + " 성적: " + student2Grade);
     }
 }
