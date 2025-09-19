@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="105d9c45-bbdd-4589-be9c-42ac702e663b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-basic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-basic/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ClassStart5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ClassStart5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1/ex/ProductOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/ex/ProductOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/InitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/InitMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/MethodChange1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/MethodChange2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/NullMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/NullMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/NullMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/NullMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/NullMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/NullMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/NullMain4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/VarChange1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/VarChange2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +46,22 @@
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
     "Application.ClassStart5.executor": "Run",
+    "Application.InitMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Method1.executor": "Run",
+    "Application.Method2.executor": "Run",
+    "Application.MethodChange1.executor": "Run",
+    "Application.MethodChange2.executor": "Run",
     "Application.MovieReviewMain1.executor": "Run",
+    "Application.NullMain1.executor": "Run",
+    "Application.NullMain2.executor": "Run",
+    "Application.NullMain3.executor": "Run",
+    "Application.NullMain4.executor": "Run",
     "Application.ProductOrderMain.executor": "Run",
+    "Application.ProductOrderMain2.executor": "Run",
+    "Application.ProductOrderMain3.executor": "Run",
+    "Application.VarChange1.executor": "Run",
+    "Application.VarChange2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,13 +76,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProductOrderMain">
-    <configuration name="ClassStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ClassStart4" />
+  <component name="RunManager" selected="Application.ProductOrderMain3">
+    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ClassStart5" />
+    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java-basic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieReviewMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.MovieReviewMain1" />
+    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.ProductOrderMain" />
+    <configuration name="ProductOrderMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOrderMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain3" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ref.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOrderMain" />
-        <item itemvalue="Application.MovieReviewMain1" />
-        <item itemvalue="Application.ClassStart5" />
-        <item itemvalue="Application.ClassStart4" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProductOrderMain3" />
+        <item itemvalue="Application.ProductOrderMain2" />
+        <item itemvalue="Application.NullMain4" />
+        <item itemvalue="Application.NullMain3" />
+        <item itemvalue="Application.NullMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +171,10 @@
       <workItem from="1757989898787" duration="1836000" />
       <workItem from="1758023442160" duration="279000" />
       <workItem from="1758104527351" duration="674000" />
-      <workItem from="1758159919895" duration="2958000" />
+      <workItem from="1758159919895" duration="4126000" />
+      <workItem from="1758168632267" duration="2000" />
+      <workItem from="1758180983655" duration="4456000" />
+      <workItem from="1758236953095" duration="5931000" />
     </task>
     <servers />
   </component>

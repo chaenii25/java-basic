@@ -5,32 +5,26 @@ import java.util.Scanner;
 public class ProductOrderMain3 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("입력할 주문의 개수를 입력하세요: ");
-        int n = scanner.nextInt();
-        scanner.nextLine();
-
+        Scanner sc = new Scanner(System.in);
+        System.out.print("주문개수 입력>>>...");
+        int n = sc.nextInt();
         ProductOrder[] orders = new ProductOrder[n];
-        for (int i = 0; i < orders.length; i++) {
-            System.out.println((i+1) + "번째 주문 정보를 입력하세요.");
 
-            System.out.print("상품명: ");
-            String productName = scanner.nextLine();
+        for (int i = 0; i < n; i++) {
+            System.out.println((i+1)+"번째 주문정보 입력하기");
 
-            System.out.print("가격: ");
-            int price = scanner.nextInt();
+            System.out.print("상품명>>..");
+            String name = sc.next();
+            System.out.print("가격>>..");
+            int price = sc.nextInt();
+            System.out.print("수량>>..");
+            int quantity = sc.nextInt();
 
-            System.out.print("수량: ");
-            int quantity = scanner.nextInt();
-            scanner.nextLine();//입력 버퍼를 비우기 위한 코드
-
-            orders[i] = createOrder(productName, price, quantity);
+            orders[i] = createOrder(name, price, quantity);
         }
-        printOrders(orders);
-        int totalAmount = getTotalAmount(orders);
-        System.out.println("총 결제 금액: " + totalAmount);
+        printOrder(orders);
+        System.out.println("총 결제 금액: " + getTotalAmount(orders));
     }
-
     static ProductOrder createOrder(String productName, int price, int quantity) {
         ProductOrder order = new ProductOrder();
         order.productName = productName;
@@ -39,17 +33,17 @@ public class ProductOrderMain3 {
         return order;
     }
 
-    static void printOrders(ProductOrder[] orders) {
+    static void printOrder(ProductOrder[] orders) {
         for (ProductOrder order : orders) {
-            System.out.println("상품명: " + order.productName + ", 가격: " + order.price + ", 수량: " + order.quantity);
+            System.out.println(order.productName + " " + order.price + " " + order.quantity);
         }
     }
 
     static int getTotalAmount(ProductOrder[] orders) {
-        int totalAmount = 0;
+        int total = 0;
         for (ProductOrder order : orders) {
-            totalAmount += order.price * order.quantity;
+            total += order.price * order.quantity;
         }
-        return totalAmount;
+        return total;
     }
 }
