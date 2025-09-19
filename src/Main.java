@@ -7,39 +7,37 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String[] str = br.readLine().split(" ");
-        int num = Integer.parseInt(str[0]);
-        int max = Integer.parseInt(str[1]);
+        int num = Integer.parseInt(br.readLine());
 
-        Map<Integer, Integer> map = new LinkedHashMap<>();
-
-        String[] num2 = br.readLine().split(" ");
+        Map<String, Integer> map = new HashMap<>();
 
         for (int i = 0; i < num; i++) {
-            int number = Integer.parseInt(num2[i]);
+            String title = br.readLine();
 
-            if(map.containsKey(number)){
-                map.put(number,map.get(number)+1);
+            if(map.containsKey(title)){
+                map.put(title,map.get(title)+1);
             } else {
-                map.put(number,1);
+                map.put(title,1);
             }
         }
 
-        List<Integer> list = new ArrayList<>(map.keySet());
+        String best = "";
+        int max = 0;
 
-        Collections.sort(list, (a, b) -> {
-            return Integer.compare(map.get(b), map.get(a));
-        });
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String title = entry.getKey();
+            int count = entry.getValue();
 
-        StringBuilder sb = new StringBuilder();
-        for (Integer n : list) {
-            int count = map.get(n);
-            for (int i= 0; i< count; i++) {
-                sb.append(n).append(" ");
+            if (count > max) {
+                max = count;
+                best = title;
+            } else if (count == max) {
+                if (title.compareTo(best) < 0) {
+                    best = title;
+                }
             }
         }
 
-        System.out.println(sb.toString().trim());
-
+        System.out.println(best);
     }
 }

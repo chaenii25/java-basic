@@ -1,6 +1,6 @@
 package oop1;
 
 public class MusicPlayerData {
-    int volume = 0;
+    int volume = 20;
     boolean isOn = false;
 }
