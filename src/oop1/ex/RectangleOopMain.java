@@ -3,9 +3,7 @@ package oop1.ex;
 public class RectangleOopMain {
 
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
-        rectangle.width = 5;
-        rectangle.height = 8;
+        Rectangle rectangle = new Rectangle(5,8);
 
         int area = rectangle.calculateArea();
         System.out.println("넓이: " + area);

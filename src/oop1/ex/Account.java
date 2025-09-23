@@ -1,17 +1,23 @@
 package oop1.ex;
 
 public class Account {
-    int balance; //잔액
+    int valance = 0;
 
     void deposit(int amount) {
-        balance += amount;
+        valance += amount;
+        System.out.println(valance + "원");
     }
 
     void withdraw(int amount) {
-        if (balance >= amount) {
-            balance -= amount;
+        if (valance < amount) {
+            System.out.println("잔액부족!!");
         } else {
-            System.out.println("잔액 부족");
+            valance -= amount;
         }
+        System.out.println(valance + "원");
+    }
+
+    void checkBalance() {
+        System.out.println("현재 잔액: " + valance);
     }
 }
