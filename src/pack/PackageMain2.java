@@ -1,11 +1,12 @@
 package pack;
 
-import pack.a.*;
+import pack.a.User;
 
 public class PackageMain2 {
 
     public static void main(String[] args) {
-        Data data = new Data();
-        User user = new User(); //import 사용으로 패키지 명 생략 가능
+        Data d = new Data();
+        User u = new User();
+        //import하면 그냥 사용 가능
     }
 }

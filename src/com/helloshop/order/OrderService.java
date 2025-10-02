@@ -5,6 +5,7 @@ import com.helloshop.user.User;
 
 public class OrderService {
 
+    // 주문 로직 (예시)
     public void order() {
         User user = new User();
         Product product = new Product();
