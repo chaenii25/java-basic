@@ -2,18 +2,16 @@ package construct.ex;
 
 public class Book {
 
-    String title; //제목
-    String author; //저자
-    int page; //페이지 수
-
-    //코드 완성
+    String title;
+    String author;
+    int page;
 
     Book() {
-        this("", "", 0);
+        this(null, null, 0);
     }
 
     Book(String title, String author) {
-        this(title, author, 0);
+        this(title, author, 100);
     }
 
     Book(String title, String author, int page) {
@@ -23,6 +21,8 @@ public class Book {
     }
 
     void displayInfo() {
-        System.out.println("제목: " + title + ", 저자: " +author+ ", 페이지: " + page);
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Page: " + page);
     }
 }

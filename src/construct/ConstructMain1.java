@@ -2,13 +2,15 @@ package construct;
 
 public class ConstructMain1 {
     public static void main(String[] args) {
-        MemberConstruct member1 = new MemberConstruct("user1", 15, 90);
-        MemberConstruct member2 = new MemberConstruct("user2", 16, 80);
+        MemberConstruct m1 = new MemberConstruct("학생1", 15, 90);
+        MemberConstruct m2 = new MemberConstruct("학생2", 16,80);
 
-        MemberConstruct[] members = {member1, member2};
+        MemberConstruct[] ms = new MemberConstruct[2];
+        ms[0] = m1;
+        ms[1] = m2;
 
-        for (MemberConstruct s : members) {
-            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
+        for (MemberConstruct m : ms) {
+            System.out.println(m.name + " " + m.age + " " + m.grade);
         }
     }
 }

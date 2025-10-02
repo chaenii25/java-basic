@@ -1,42 +1,34 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int num = Integer.parseInt(br.readLine());
-        List<Person> people = new ArrayList<>();
+        int num =  Integer.parseInt(br.readLine());
+        int[][] arr = new int[num][2];
 
         for (int i = 0; i < num; i++) {
-            String[] str = br.readLine().split(" ");
-
-            int age = Integer.parseInt(str[0]);
-            String name = str[1];
-
-            people.add(new Person(age, name));
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            arr[i][0] = Integer.parseInt(st.nextToken());
+            arr[i][1] = Integer.parseInt(st.nextToken());
         }
 
-        Collections.sort(people, (a, b) -> {
-            return Integer.compare(a.age, b.age);
+        Arrays.sort(arr, (a, b) -> {
+            if (a[1] == b[1]) {
+                return a[0] - b[0];
+            }
+            return a[1] - b[1];
         });
 
-        for (Person person : people) {
-            System.out.println(person.age + " " + person.name);
+        StringBuilder sb = new StringBuilder();
+        for (int[] ints : arr) {
+            sb.append(ints[0]).append(" ").append(ints[1]).append("\n");
         }
-    }
-}
 
-class Person {
-    int age;
-    String name;
-
-    Person(int age, String name) {
-        this.age = age;
-        this.name = name;
+        System.out.println(sb);
     }
 }
